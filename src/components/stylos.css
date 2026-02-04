@@ -1,8 +1,8 @@
 :root{
-    --background-color: #14262e;
+    /* --background-color: #242424; */
     --navbar-color: rgba(24, 56, 73, 0.7);
 
-    --card-bg-color: #1f3a46;
+    --card-bg-color: #000;
 
     --skills-color: #08597b;
 
@@ -61,6 +61,7 @@
     background-color: var(--card-bg-color);
     display: flex;
     padding-bottom: 4em;
+    
 }
 
 #avatar{
@@ -172,6 +173,8 @@
 
 .radius{
     border-radius: 20px;
+    border: 3px solid #242424;
+    margin-bottom: 3em;
 }
 .onhover:hover{
     box-shadow: 0px 0px 15px lightblue;
