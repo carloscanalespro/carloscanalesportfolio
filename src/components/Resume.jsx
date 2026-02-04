@@ -3,7 +3,7 @@ import avatarUser from '../assets/img/avatar.png'
 
 export default function Resume(){
     return(
-        <div className='resume onhover radius'>
+        <div className='resume'>
             <img src={avatarUser} id='avatar'></img>
 
             <div className='card'>

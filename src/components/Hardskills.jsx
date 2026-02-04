@@ -9,7 +9,7 @@ import django from '../assets/svgs/django.svg'
 
 export default function Hardskills(){
     return(
-            <div className='hardskills onhover radius'>
+            <div className='hardskills radius'>
                 <h3>Hard skills</h3>
 
                 <div className='hardgrid'>

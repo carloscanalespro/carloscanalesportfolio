@@ -1,19 +1,19 @@
 :root{
     /* --background-color: #242424; */
-    --navbar-color: rgba(24, 56, 73, 0.7);
+    --navbar-color: rgba(24, 56, 73);
 
-    --card-bg-color: #000;
+    --card-bg-color: #1f1f1f;
 
     --skills-color: #08597b;
     --skills-color-hover: #1f7ea7;
 
     --footer-bg-color: #14262e;
-    --footer-copyr-bg-color: #174356;
+    --footer-copyr-bg-color: #08597b;
 
 }
 
 .navbar{
-    border-radius: 0px 0px 50px 50px;
+    border-radius: 0px 0px 5px 5px;
     padding: 1em;
     background-color: var(--navbar-color);
     text-align: center;
@@ -36,7 +36,7 @@
 
 /* Footer area */
 .footer{
-    background-color: var(--card-bg-color);
+    /* background-color: var(--card-bg-color); */
 }
 
 .footer > a{
@@ -59,7 +59,7 @@
 /* resume area */
 
 .resume{
-    background-color: var(--card-bg-color);
+    /* background-color: var(--card-bg-color); */
     display: flex;
     padding-bottom: 4em;
     
@@ -83,7 +83,7 @@
 
 #myresume{
     border-radius: 40px;
-    background-color: black;
+    background-color: var(--card-bg-color);
     padding: 1em 2em;
     display: flex;
     margin-bottom: 2em;
@@ -91,7 +91,7 @@
 
 #contactme{
     border-radius: 40px;
-    background-color: black;
+    background-color: var(--card-bg-color);
     padding: 1em 2em;
     display: flex;
 }
@@ -172,7 +172,7 @@
 /* Experience area */
 
 .experience{
-    background-color: var(--card-bg-color);
+    /* background-color: var(--card-bg-color); */
     padding: 2em;
     margin-top: 2em;
 }

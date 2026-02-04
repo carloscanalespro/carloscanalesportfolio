@@ -2,7 +2,7 @@ import './stylos.css'
 
 export default function Experience(){
     return(
-        <div className='experience onhover radius'>
+        <div className='experience'>
             <h3>Experience</h3>
             <div className='jobs'>
                 Desarrollo de asistente virtual de documentación de programa WMS - G-Global Logistics
