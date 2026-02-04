@@ -1,0 +1,178 @@
+:root{
+    --background-color: #14262e;
+    --navbar-color: rgba(24, 56, 73, 0.7);
+
+    --card-bg-color: #1f3a46;
+
+    --skills-color: #08597b;
+
+    --footer-bg-color: #14262e;
+    --footer-copyr-bg-color: #174356;
+
+}
+
+.navbar{
+    border-radius: 0px 0px 50px 50px;
+    padding: 1em;
+    background-color: var(--navbar-color);
+    text-align: center;
+    margin-bottom: 4em;
+    position: sticky;
+    top: 0;
+}
+
+.navbar > a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 2em;
+}
+
+.navbar > a:hover{
+    /* color: #8CBA80; */
+    color: greenyellow;
+    font-weight: bold;
+}
+
+/* Footer area */
+.footer{
+    background-color: var(--card-bg-color);
+}
+
+.footer > a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 2em;
+    display: block;
+}
+
+.footer > a:hover{
+    color: greenyellow;
+    font-weight: bold;
+}
+
+#footer-cpr{
+    background-color: var(--footer-copyr-bg-color);
+    text-align: center;
+}
+
+/* resume area */
+
+.resume{
+    background-color: var(--card-bg-color);
+    display: flex;
+    padding-bottom: 4em;
+}
+
+#avatar{
+    height: 20em;
+    margin-top: 4em;
+    
+}
+
+.card{
+    margin-right: 2em;
+}
+
+#name{
+    font-size: 4em;
+    box-sizing: border-box;
+    
+}
+
+#myresume{
+    border-radius: 40px;
+    background-color: black;
+    padding: 1em 2em;
+    display: flex;
+    margin-bottom: 2em;
+}
+
+#contactme{
+    border-radius: 40px;
+    background-color: black;
+    padding: 1em 2em;
+    display: flex;
+}
+
+
+
+/* hardskills area */
+
+.hardskills{
+    background-color: var(--card-bg-color); 
+}
+
+.hardgrid{
+    padding: 5em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.hardgrid > div{
+    background-color: var(--skills-color);
+    height: 6em;
+    
+
+    border-radius: 40px;
+    text-align: center;
+    margin: 0.5em;
+    display: flex;
+    transition: all 0.3s ease;
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.hardgrid > div:hover{
+    box-shadow: 10px 10px 10px lightblue;
+    transform: translateY(-10px);
+}
+
+.hardgrid > div > p{
+    padding-left: 1em;
+}
+
+.icons{
+    height: 4em;
+}
+
+/* Experience area */
+
+.experience{
+    background-color: var(--card-bg-color);
+    padding: 2em;
+    margin-top: 2em;
+}
+
+.jobs{
+    background-color: var(--skills-color);
+    margin: 2em 2em;
+    padding: 1.5em;
+    border-radius: 20px;
+
+}
+
+/* Projects area */
+
+.projects{
+    background-color: var(--card-bg-color);
+    padding: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.github{
+    background-color: var(--skills-color);
+    margin: 2em 2em;
+    padding: 1.5em;
+    border-radius: 20px;
+
+}
+
+.radius{
+    border-radius: 20px;
+}
+.onhover:hover{
+    box-shadow: 0px 0px 15px lightblue;
+}
