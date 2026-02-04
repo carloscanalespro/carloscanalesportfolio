@@ -101,28 +101,38 @@
 /* hardskills area */
 
 .hardskills{
-    background-color: var(--card-bg-color); 
+    background-color: var(--card-bg-color);
+    width: 80%;
+}
+
+.hardskills > h3{
+    padding: 1em 2em;
 }
 
 .hardgrid{
-    padding: 5em;
+    padding: 1em;
     display: grid;
-    grid-template-columns: auto auto auto;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 }
 
 .hardgrid > div{
     background-color: var(--skills-color);
     height: 6em;
+    width: 70%;
     
 
-    border-radius: 40px;
+    border-radius: 10px;
     text-align: center;
     margin: 0.5em;
+
     display: flex;
+    flex-direction: column;
+
     transition: all 0.3s ease;
 
     align-items: center;
-    align-content: center;
+    /* align-content: center; */
     justify-content: center;
 }
 
@@ -132,7 +142,26 @@
     background-color: var(--skills-color-hover);
 }
 
-.hardgrid > div > p{
+#linux{
+    width: 120%;
+}
+
+#docker{
+    width: 80%;
+    
+}
+#docker + p{
+    margin-top: 0;
+}
+
+.softskills{
+    background-color: var(--card-bg-color); 
+    width: 30%;
+    margin-left: 1em;
+    
+}
+
+.softskills > h3{
     padding-left: 1em;
 }
 

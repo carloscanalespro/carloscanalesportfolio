@@ -3,17 +3,17 @@ import './stylos.css'
 export default function Softskills(){
     return(
         <>
-            <div className='hardskills onhover radius'>
+            <div className='softskills onhover radius'>
                 <h3>Soft skills</h3>
 
-                <div className='hardgrid'>
-                    <div>Python</div>
-                    <div>Javascript</div>
-                    <div>Linux</div>
-                    <div>Docker</div>
-                    <div>Fastapi</div>
-                    <div>Django</div>
-                </div>
+                <ul>
+                    <li>Liderazgo</li>
+                    <li>Inteligencia emocional</li>
+                    <li>Comunicacion Efectiva</li>
+                    <li>Proactividad y adaptibilidad</li>
+                    <li>Gestion del tiempo</li>
+                    <li>Trabajo en equipo</li>
+                </ul>
                 
             </div>
         </>

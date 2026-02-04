@@ -18,15 +18,15 @@ export default function Hardskills(){
                         <p>Python</p>
                     </div>
                     <div>
-                        <img src={javascript} alt="" className='icons'/>
+                        <img src={javascript} alt="" className='icons' />
                         <p>Javascript</p>
                     </div>
                     <div>
-                        <img src={linux} alt="" className='icons'/>
+                        <img src={linux} alt="" className='icons' id='linux'/>
                         <p>Linux</p>
                     </div>
                     <div>
-                        <img src={docker} alt="" className='icons'/>
+                        <img src={docker} alt=""  id='docker'/>
                         <p>Docker</p>
                     </div>
                     <div>

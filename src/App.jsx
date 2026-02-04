@@ -19,8 +19,13 @@ function App() {
       <Navbar/>
 
       <Resume/>
-      <Hardskills/>
-      <Softskills/>
+
+      <div className='skills'>
+        <Hardskills/>
+        <Softskills/>
+      </div>
+      
+
       <Experience/>
       <Projects/>
       

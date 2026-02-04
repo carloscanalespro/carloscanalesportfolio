@@ -5,3 +5,7 @@
   /* text-align: center; */
 }
 
+.skills{
+  display: flex;
+  justify-content: space-between;
+}
