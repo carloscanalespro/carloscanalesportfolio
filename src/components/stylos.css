@@ -5,6 +5,7 @@
     --card-bg-color: #000;
 
     --skills-color: #08597b;
+    --skills-color-hover: #1f7ea7;
 
     --footer-bg-color: #14262e;
     --footer-copyr-bg-color: #174356;
@@ -126,8 +127,9 @@
 }
 
 .hardgrid > div:hover{
-    box-shadow: 10px 10px 10px lightblue;
+    box-shadow: 1px 1px 60px white;
     transform: translateY(-10px);
+    background-color: var(--skills-color-hover);
 }
 
 .hardgrid > div > p{
@@ -177,5 +179,5 @@
     margin-bottom: 3em;
 }
 .onhover:hover{
-    box-shadow: 0px 0px 15px lightblue;
+    box-shadow: 1px 1px 20px white;
 }
