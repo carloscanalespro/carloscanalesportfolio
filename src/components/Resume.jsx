@@ -17,7 +17,7 @@ export default function Resume(){
                 </div>
                 <div id='contactme'>
                     <p>Ubicación: Tijuana, B.C., México</p>
-                    <p>Celular: 6644743187</p>
+                    {/* <p>Celular: 6644743187</p> */}
                     <p>Correo: carloscanalespro@gmail.com</p>
                     <p>Portafolio: <a href="#">carloscanales.dev</a> </p>
                 </div>
