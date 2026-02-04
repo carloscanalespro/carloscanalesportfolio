@@ -1,11 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+}
+
 :root{
     /* --background-color: #242424; */
-    --navbar-color: rgba(24, 56, 73);
+    --navbar-color: #0f0f0f;
 
     --card-bg-color: #1f1f1f;
 
     --skills-color: #08597b;
     --skills-color-hover: #1f7ea7;
+
+    --words-hover: #1f7ea7;
 
     --footer-bg-color: #14262e;
     --footer-copyr-bg-color: #08597b;
@@ -20,6 +29,9 @@
     margin-bottom: 4em;
     position: sticky;
     top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar > a{
@@ -30,19 +42,20 @@
 
 .navbar > a:hover{
     /* color: #8CBA80; */
-    color: greenyellow;
+    color: var(--words-hover);
     font-weight: bold;
 }
 
 /* Footer area */
 .footer{
     /* background-color: var(--card-bg-color); */
+    padding: 0;
 }
 
 .footer > a{
     text-decoration: none;
     color: aliceblue;
-    padding-left: 2em;
+    padding-left: 0em;
     display: block;
 }
 
@@ -82,18 +95,31 @@
 }
 
 #myresume{
-    border-radius: 40px;
+    border-radius: 0px;
     background-color: var(--card-bg-color);
     padding: 1em 2em;
     display: flex;
     margin-bottom: 2em;
+    text-align: left;
 }
 
 #contactme{
-    border-radius: 40px;
+    border-radius: 0px;
     background-color: var(--card-bg-color);
     padding: 1em 2em;
+    display: flex;    
+}
+
+#contactme >div{
     display: flex;
+}
+
+#contactme >div > p{
+    padding-left: 1em;
+}
+
+#contactme >div:last-child{
+    padding-left: 2em;
 }
 
 
@@ -203,7 +229,7 @@
 }
 
 .radius{
-    border-radius: 20px;
+    border-radius: 0px;
     border: 3px solid #242424;
     margin-bottom: 3em;
 }

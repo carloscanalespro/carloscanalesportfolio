@@ -8,10 +8,10 @@ export default function Footer(){
                 <a href="#">Hard Skills</a>
                 <a href="#">Soft Skills</a>
                 <a href="#">Projects</a>
+                ©{new Date().getFullYear()} Carlos Canales
             </div>
-            <div id='footer-cpr'>
-                Carlos Canales Portfolio ©{new Date().getFullYear()} Created by Carlos Canales
-            </div>
+            
+            
         </>
         
     );

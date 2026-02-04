@@ -17,19 +17,20 @@ function App() {
   return (
     <>
       <Navbar/>
+        <div id='rat'>
+          <Resume/>
 
-      <Resume/>
+          <div className='skills'>
+            <Hardskills/>
+            <Softskills/>
+          </div>
 
-      <div className='skills'>
-        <Hardskills/>
-        <Softskills/>
-      </div>
+          <Experience/>
+          <Projects/>
+          <Footer/>
+        </div>
       
-
-      <Experience/>
-      <Projects/>
-      
-      <Footer/>
+    
     </>
   )
 }
