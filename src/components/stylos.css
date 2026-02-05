@@ -279,7 +279,20 @@
     margin: 2em 2em;
     padding: 1.5em;
     border-radius: 20px;
+    display: flex;
+}
 
+.jobs > img{
+    width: 10%;
+    height: 10%;
+}
+
+.jobs > div{
+    padding-left: 1em;
+}
+
+.jobs > img{
+    border-radius: 20em;
 }
 
 /* Projects area */
