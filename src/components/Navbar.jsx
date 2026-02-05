@@ -9,6 +9,7 @@ export default function Navbar(){
                 <a href="#1">Resume</a>
                 <a href="#2">Hard Skills</a>
                 <a href="#3">Soft Skills</a>
+                <a href="#6">Tools</a>
                 <a href="#4">Experience</a>
                 <a href="#5">Projects</a>
             </div>

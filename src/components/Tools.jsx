@@ -9,7 +9,7 @@ import copilot from '../assets/svgs/copilot.svg'
 
 export default function Tools(){
     return(
-            <div className='tools radius' id='2'>
+            <div className='tools radius' id='6'>
                 <h3>Tools</h3>
 
                 <div className='hardgridtools'>

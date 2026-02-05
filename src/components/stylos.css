@@ -86,9 +86,11 @@
 }
 
 #avatar{
-    height: 20em;
+    height: 25em;
     margin-top: 4em;
-    
+    clip-path: circle(40%);
+    /* transform: scaleX(-1); */
+    margin-right: 2em;
 }
 
 .card{
