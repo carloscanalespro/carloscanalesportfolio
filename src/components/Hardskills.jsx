@@ -9,7 +9,7 @@ import django from '../assets/svgs/django.svg'
 
 export default function Hardskills(){
     return(
-            <div className='hardskills radius'>
+            <div className='hardskills radius' id='2'>
                 <h3>Hard skills</h3>
 
                 <div className='hardgrid'>

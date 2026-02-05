@@ -3,12 +3,15 @@ import code from '../assets/svgs/code.svg'
 
 export default function Navbar(){
     return(
-        <div className='navbar'>
+        <div className='logomove'>
             <img src={code} alt="" />
-            <a href="#">Resume</a>
-            <a href="#">Hard Skills</a>
-            <a href="#">Soft Skills</a>
-            <a href="#">Projects</a>
+            <div className='navbar'>
+                <a href="#1">Resume</a>
+                <a href="#2">Hard Skills</a>
+                <a href="#3">Soft Skills</a>
+                <a href="#4">Experience</a>
+                <a href="#5">Projects</a>
+            </div>
         </div>
     );
 }

@@ -21,14 +21,21 @@
 
 }
 
+.logomove{
+    background-color: var(--navbar-color);
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+
+
+}
+
 .navbar{
     border-radius: 0px 0px 5px 5px;
     padding: 1em;
-    background-color: var(--navbar-color);
     text-align: center;
-    margin-bottom: 4em;
-    position: sticky;
-    top: 0;
+    /* margin-bottom: 4em; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,16 +117,35 @@
     display: flex;    
 }
 
-#contactme >div{
+#contactme > div{
     display: flex;
-}
-
-#contactme >div > p{
     padding-left: 1em;
 }
 
-#contactme >div:last-child{
-    padding-left: 2em;
+#contactme > div:first-child{
+    padding-left: 0;
+}
+
+#contactme >div > a{
+    padding-left: 0em;
+    text-decoration: none;
+    padding: 0;
+}
+
+#contactme > div > a{
+    display: block;
+    margin: 16px 0;
+}
+
+#contactme > div:last-child{
+    transition: all 0.3s ease;
+}
+
+#contactme > div:last-child:hover{
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #dad8d8;
+    transform: translateY(-10px);
+    padding-left: 0;
 }
 
 
@@ -163,7 +189,7 @@
 }
 
 .hardgrid > div:hover{
-    box-shadow: 1px 1px 60px white;
+    box-shadow: 1px 1px 20px #dad8d8;
     transform: translateY(-10px);
     background-color: var(--skills-color-hover);
 }
@@ -225,7 +251,15 @@
     margin: 2em 2em;
     padding: 1.5em;
     border-radius: 20px;
+    display: flex;
+}
 
+.github > div{
+    padding-left: 2em;
+}
+
+.github:hover{
+    box-shadow: 1px 1px 10px var(--skills-color-hover);
 }
 
 .radius{

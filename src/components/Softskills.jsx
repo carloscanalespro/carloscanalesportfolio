@@ -3,7 +3,7 @@ import './stylos.css'
 export default function Softskills(){
     return(
         <>
-            <div className='softskills radius'>
+            <div className='softskills radius' id='3'>
                 <h3>Soft skills</h3>
 
                 <ul>

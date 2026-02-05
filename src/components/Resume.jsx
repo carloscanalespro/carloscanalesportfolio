@@ -2,10 +2,11 @@ import './stylos.css'
 import avatarUser from '../assets/img/avatar.png'
 import mappin from '../assets/svgs/map-pin.svg'
 import mail from '../assets/svgs/mail.svg'
+import github from '../assets/svgs/brand-github.svg'
 
 export default function Resume(){
     return(
-        <div className='resume'>
+        <div className='resume' id='1'>
             <img src={avatarUser} id='avatar'></img>
 
             <div className='card'>
@@ -25,6 +26,10 @@ export default function Resume(){
                     <div>
                         <img src={mail}></img>
                         <p>carloscanalespro@gmail.com</p>
+                    </div>
+                    <div>
+                        <img src={github} alt="" />
+                        <a href="https://github.com/carloscanalespro">carloscanalespro</a>
                     </div>
                     
                 </div>
