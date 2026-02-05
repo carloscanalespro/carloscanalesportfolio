@@ -194,6 +194,51 @@
     background-color: var(--skills-color-hover);
 }
 
+/* tools area */
+
+.tools{
+    background-color: var(--card-bg-color);
+    /* width: 80%; */
+}
+
+.tools > h3{
+    padding: 1em 2em;
+}
+
+.hardgridtools{
+    padding: 1em;
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.hardgridtools > div{
+    background-color: var(--skills-color);
+    height: 6em;
+    width: 70%;
+    
+
+    border-radius: 10px;
+    text-align: center;
+    margin: 0.5em;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: all 0.3s ease;
+
+    align-items: center;
+    /* align-content: center; */
+    justify-content: center;
+}
+
+.hardgridtools > div:hover{
+    box-shadow: 1px 1px 20px #dad8d8;
+    transform: translateY(-10px);
+    background-color: var(--skills-color-hover);
+}
+
+
 #linux{
     width: 120%;
 }
@@ -226,7 +271,7 @@
 .experience{
     /* background-color: var(--card-bg-color); */
     padding: 2em;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .jobs{
@@ -265,7 +310,7 @@
 .radius{
     border-radius: 0px;
     border: 3px solid #242424;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 .onhover:hover{
     box-shadow: 1px 1px 20px white;

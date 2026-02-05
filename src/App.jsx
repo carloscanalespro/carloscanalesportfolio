@@ -10,6 +10,7 @@ import Softskills from './components/Softskills.jsx'
 import Experience from './components/Experience.jsx'
 import Projects from './components/Projects.jsx'
 import Footer from './components/Footer.jsx'
+import Tools from './components/Tools.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
             <Hardskills/>
             <Softskills/>
           </div>
+          <Tools/>
 
           <Experience/>
           <Projects/>
