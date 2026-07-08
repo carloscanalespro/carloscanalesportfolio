@@ -8,7 +8,6 @@ export default function Softskills(){
 
                 <ul>
                     <li>Liderazgo</li>
-                    <li>Inteligencia emocional</li>
                     <li>Comunicacion Efectiva</li>
                     <li>Proactividad y adaptibilidad</li>
                     <li>Gestion del tiempo</li>
